@@ -43,6 +43,7 @@
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssToken
 {
 	/**
@@ -63,6 +64,7 @@ abstract class aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssRulesetStartToken extends aCssToken
 {
 
@@ -78,6 +80,7 @@ abstract class aCssRulesetStartToken extends aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssRulesetEndToken extends aCssToken
 {
 	/**
@@ -104,6 +107,7 @@ abstract class aCssRulesetEndToken extends aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssParserPlugin
 {
 	/**
@@ -172,6 +176,7 @@ abstract class aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssMinifierPlugin
 {
 	/**
@@ -226,6 +231,7 @@ abstract class aCssMinifierPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssMinifierFilter
 {
 	/**
@@ -273,6 +279,7 @@ abstract class aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssFormatter
 {
 	/**
@@ -324,6 +331,7 @@ abstract class aCssFormatter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssDeclarationToken extends aCssToken
 {
 	/**
@@ -387,6 +395,7 @@ abstract class aCssDeclarationToken extends aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssAtBlockStartToken extends aCssToken
 {
 
@@ -402,6 +411,7 @@ abstract class aCssAtBlockStartToken extends aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 abstract class aCssAtBlockEndToken extends aCssToken
 {
 	/**
@@ -425,6 +435,7 @@ abstract class aCssAtBlockEndToken extends aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssWhitesmithsFormatter extends aCssFormatter
 {
 	/**
@@ -551,6 +562,7 @@ class CssWhitesmithsFormatter extends aCssFormatter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssVariablesMinifierPlugin extends aCssMinifierPlugin
 {
 	/**
@@ -647,6 +659,7 @@ class CssVariablesMinifierPlugin extends aCssMinifierPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssVariablesMinifierFilter extends aCssMinifierFilter
 {
 	/**
@@ -741,6 +754,7 @@ class CssVariablesMinifierFilter extends aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssUrlParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -817,6 +831,7 @@ class CssUrlParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssStringParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -916,6 +931,7 @@ class CssStringParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssSortRulesetPropertiesMinifierFilter extends aCssMinifierFilter
 {
 	/**
@@ -1006,6 +1022,7 @@ class CssSortRulesetPropertiesMinifierFilter extends aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssRulesetStartToken extends aCssRulesetStartToken
 {
 	/**
@@ -1048,6 +1065,7 @@ class CssRulesetStartToken extends aCssRulesetStartToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssRulesetParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -1174,6 +1192,7 @@ class CssRulesetParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssRulesetEndToken extends aCssRulesetEndToken
 {
 
@@ -1189,6 +1208,7 @@ class CssRulesetEndToken extends aCssRulesetEndToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssRulesetDeclarationToken extends aCssDeclarationToken
 {
 	/**
@@ -1226,6 +1246,7 @@ class CssRulesetDeclarationToken extends aCssDeclarationToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssRemoveLastDelarationSemiColonMinifierFilter extends aCssMinifierFilter
 {
 	/**
@@ -1262,6 +1283,7 @@ class CssRemoveLastDelarationSemiColonMinifierFilter extends aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssRemoveEmptyRulesetsMinifierFilter extends aCssMinifierFilter
 {
 	/**
@@ -1302,6 +1324,7 @@ class CssRemoveEmptyRulesetsMinifierFilter extends aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssRemoveEmptyAtBlocksMinifierFilter extends aCssMinifierFilter
 {
 	/**
@@ -1342,6 +1365,7 @@ class CssRemoveEmptyAtBlocksMinifierFilter extends aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssRemoveCommentsMinifierFilter extends aCssMinifierFilter
 {
 	/**
@@ -1385,6 +1409,7 @@ class CssRemoveCommentsMinifierFilter extends aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssParser
 {
 	/**
@@ -1825,6 +1850,7 @@ class CssParser
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssOtbsFormatter extends aCssFormatter
 {
 	/**
@@ -1928,6 +1954,7 @@ class CssOtbsFormatter extends aCssFormatter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssNullToken extends aCssToken
 {
 	/**
@@ -1951,6 +1978,7 @@ class CssNullToken extends aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssMinifier
 {
 	/**
@@ -2183,6 +2211,7 @@ class CssMinifier
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssMin
 {
 	/**
@@ -2350,6 +2379,7 @@ CssMin::initialise();
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssImportImportsMinifierFilter extends aCssMinifierFilter
 {
 	/**
@@ -2555,6 +2585,7 @@ class CssImportImportsMinifierFilter extends aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssExpressionParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -2638,6 +2669,7 @@ class CssExpressionParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssError
 {
 	/**
@@ -2709,6 +2741,7 @@ class CssError
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssConvertRgbColorsMinifierPlugin extends aCssMinifierPlugin
 {
 	/**
@@ -2778,6 +2811,7 @@ class CssConvertRgbColorsMinifierPlugin extends aCssMinifierPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssConvertNamedColorsMinifierPlugin extends aCssMinifierPlugin
 {
 
@@ -3004,6 +3038,7 @@ class CssConvertNamedColorsMinifierPlugin extends aCssMinifierPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssConvertLevel3PropertiesMinifierFilter extends aCssMinifierFilter
 {
 	/**
@@ -3343,6 +3378,7 @@ class CssConvertLevel3PropertiesMinifierFilter extends aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssConvertLevel3AtKeyframesMinifierFilter extends aCssMinifierFilter
 {
 	/**
@@ -3422,6 +3458,7 @@ class CssConvertLevel3AtKeyframesMinifierFilter extends aCssMinifierFilter
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssConvertHslColorsMinifierPlugin extends aCssMinifierPlugin
 {
 	/**
@@ -3552,6 +3589,7 @@ class CssConvertHslColorsMinifierPlugin extends aCssMinifierPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssConvertFontWeightMinifierPlugin extends aCssMinifierPlugin
 {
 	/**
@@ -3661,6 +3699,7 @@ class CssConvertFontWeightMinifierPlugin extends aCssMinifierPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssCompressUnitValuesMinifierPlugin extends aCssMinifierPlugin
 {
 	/**
@@ -3746,6 +3785,7 @@ class CssCompressUnitValuesMinifierPlugin extends aCssMinifierPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssCompressExpressionValuesMinifierPlugin extends aCssMinifierPlugin
 {
 	/**
@@ -3802,6 +3842,7 @@ class CssCompressExpressionValuesMinifierPlugin extends aCssMinifierPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssCompressColorValuesMinifierPlugin extends aCssMinifierPlugin
 {
 	/**
@@ -3854,6 +3895,7 @@ class CssCompressColorValuesMinifierPlugin extends aCssMinifierPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssCommentToken extends aCssToken
 {
 	/**
@@ -3895,6 +3937,7 @@ class CssCommentToken extends aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssCommentParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -3962,6 +4005,7 @@ class CssCommentParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtVariablesStartToken extends aCssAtBlockStartToken
 {
 	/**
@@ -4004,6 +4048,7 @@ class CssAtVariablesStartToken extends aCssAtBlockStartToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtVariablesParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -4106,6 +4151,7 @@ class CssAtVariablesParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtVariablesEndToken extends aCssAtBlockEndToken
 {
 	/**
@@ -4129,6 +4175,7 @@ class CssAtVariablesEndToken extends aCssAtBlockEndToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtVariablesDeclarationToken extends aCssDeclarationToken
 {
 	/**
@@ -4152,6 +4199,7 @@ class CssAtVariablesDeclarationToken extends aCssDeclarationToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtPageStartToken extends aCssAtBlockStartToken
 {
 	/**
@@ -4194,6 +4242,7 @@ class CssAtPageStartToken extends aCssAtBlockStartToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtPageParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -4303,6 +4352,7 @@ class CssAtPageParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtPageEndToken extends aCssAtBlockEndToken
 {
 
@@ -4318,6 +4368,7 @@ class CssAtPageEndToken extends aCssAtBlockEndToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtPageDeclarationToken extends aCssDeclarationToken
 {
 
@@ -4333,6 +4384,7 @@ class CssAtPageDeclarationToken extends aCssDeclarationToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtMediaStartToken extends aCssAtBlockStartToken
 {
 	/**
@@ -4370,6 +4422,7 @@ class CssAtMediaStartToken extends aCssAtBlockStartToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtMediaParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -4438,6 +4491,7 @@ class CssAtMediaParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtMediaEndToken extends aCssAtBlockEndToken
 {
 
@@ -4453,6 +4507,7 @@ class CssAtMediaEndToken extends aCssAtBlockEndToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtKeyframesStartToken extends aCssAtBlockStartToken
 {
 	/**
@@ -4506,6 +4561,7 @@ class CssAtKeyframesStartToken extends aCssAtBlockStartToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtKeyframesRulesetStartToken extends aCssRulesetStartToken
 {
 	/**
@@ -4545,6 +4601,7 @@ class CssAtKeyframesRulesetStartToken extends aCssRulesetStartToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtKeyframesRulesetEndToken extends aCssRulesetEndToken
 {
 
@@ -4560,6 +4617,7 @@ class CssAtKeyframesRulesetEndToken extends aCssRulesetEndToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtKeyframesRulesetDeclarationToken extends aCssDeclarationToken
 {
 
@@ -4575,6 +4633,7 @@ class CssAtKeyframesRulesetDeclarationToken extends aCssDeclarationToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtKeyframesParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -4751,6 +4810,7 @@ class CssAtKeyframesParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtKeyframesEndToken extends aCssAtBlockEndToken
 {
 
@@ -4766,6 +4826,7 @@ class CssAtKeyframesEndToken extends aCssAtBlockEndToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1.b1 (2001-02-22)
  */
+#[AllowDynamicProperties]
 class CssAtImportToken extends aCssToken
 {
 	/**
@@ -4815,6 +4876,7 @@ class CssAtImportToken extends aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtImportParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -4897,6 +4959,7 @@ class CssAtImportParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtFontFaceStartToken extends aCssAtBlockStartToken
 {
 	/**
@@ -4923,6 +4986,7 @@ class CssAtFontFaceStartToken extends aCssAtBlockStartToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtFontFaceParserPlugin extends aCssParserPlugin
 {
 	/**
@@ -5031,6 +5095,7 @@ class CssAtFontFaceParserPlugin extends aCssParserPlugin
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtFontFaceEndToken extends aCssAtBlockEndToken
 {
 
@@ -5046,6 +5111,7 @@ class CssAtFontFaceEndToken extends aCssAtBlockEndToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtFontFaceDeclarationToken extends aCssDeclarationToken
 {
 
@@ -5061,6 +5127,7 @@ class CssAtFontFaceDeclarationToken extends aCssDeclarationToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtCharsetToken extends aCssToken
 {
 	/**
@@ -5102,6 +5169,7 @@ class CssAtCharsetToken extends aCssToken
  * @license		http://opensource.org/licenses/mit-license.php MIT License
  * @version		3.0.1
  */
+#[AllowDynamicProperties]
 class CssAtCharsetParserPlugin extends aCssParserPlugin
 {
 	/**
