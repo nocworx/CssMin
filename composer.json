@@ -1,10 +1,13 @@
 {
-	"name": "natxet/cssmin",
+	"name": "nocworx/cssmin",
 	"description": "Minifying CSS",
 	"type": "library",
 	"keywords": ["css","minify"],
 	"homepage": "http://code.google.com/p/cssmin/",
 	"license": "MIT",
+	"replace": {
+		"natxet/cssmin": "*"
+	},
 	"authors": [
 		{
 			"name": "Joe Scylla",
