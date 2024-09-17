@@ -1,5 +1,5 @@
 {
-	"name": "nocworx/cssmin",
+	"name": "nocworx/natxet-cssmin",
 	"description": "Minifying CSS",
 	"type": "library",
 	"keywords": ["css","minify"],
